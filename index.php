@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Care Helpline</title>
+	<?php
+		$includesDir = __DIR__ . '/components/';
+		$pageTitle = "Customer Care Helpline";
+		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
+		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
+		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
+		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
+		require $includesDir . 'metaData.php';
+	?>
 
     <!-- Google Fonts - Exo 2 -->
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
@@ -300,7 +306,6 @@
 <body>
 
 <?php
-	$includesDir = __DIR__ . '/components/';
 	require $includesDir . 'header.php';
 ?>
 
