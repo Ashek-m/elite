@@ -51,4 +51,9 @@
 			</div>
 		</div>
 	</div>
+	<div style="height: 3em" class="w-100 btn-success d-flex justify-content-center align-items-center position-fixed fixed-bottom">
+		<a href="tel:8807224263" class=" d-block font-weight-bold">
+		<i class="fas fa-phone-alt"></i> Book Now: +91 8807224263
+	</a>
+</div>
 </footer>

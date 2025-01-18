@@ -581,9 +581,8 @@
 
 <?php
 	require $includesDir . 'footer.php';
+	require $includesDir . 'floatingContact.php';
 ?>
-    <a href="tel:8807224263" class="bubble-button d-block d-sm-none">
-    <i class="fas fa-phone-alt"></i>
   </div>
 
 
