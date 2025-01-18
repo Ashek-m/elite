@@ -249,6 +249,19 @@
             padding: 20px;
             margin-top: -50px;
         }
+		
+		@media only screen and (max-width: 600px){
+			.stat-card{
+				transform: scale(0.6);
+				top: 1em !important;
+				left: -2em !important;
+			}
+			
+			.navTxt{
+				font-size: 1em !important;
+				margin: 5px !important;
+			}
+		}
 
         .hero-image img {
             border-radius: 15px;
@@ -286,48 +299,10 @@
 </head>
 <body>
 
-    <!-- Top Header -->
-    <div class="bg-white py-2 border-bottom d-none d-sm-block">
-    <div class="container d-flex justify-content-center gap-5 text-muted">
-        <span><i class="bi bi-geo-alt-fill text-success me-1"></i> Find A Location</span>
-        <span><i class="bi bi-telephone-fill text-success me-1"></i> 8807224263</span>
-        <span><i class="bi bi-envelope-fill text-success me-1"></i> eliteserviceengineering@gmail.com</span>
-    </div>
-</div>
-
-
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg" style="background-color: #013642;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <!-- Brand -->
-            <a class="navbar-brand text-white fw-bold" href="#">Customer Care Helpline</a>
-
-            <!-- Navigation Links -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav d-flex gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Our Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Phone Button -->
-            <div>
-                <a href="tel:8807224263" class="btn btn-light fw-bold rounded-pill px-3">
-                    <i class="bi bi-telephone-fill text-success"></i> 8807224263
-                </a>
-            </div>
-        </div>
-    </nav>
+<?php
+	$includesDir = __DIR__ . '/components/';
+	require $includesDir . 'header.php';
+?>
 
   <!-- Hero Section -->
   <div class="hero-section">
@@ -549,7 +524,7 @@
         <div class="card position-relative border-0 shadow h-100">
           <img src="Assets/img/2.png" class="card-img-top" alt="Plumbing Service">
           <div class="high-demand">High Demand</div>
-          <div class="card-title">Plumbing Service</div>
+          <div class="card-title px-2">Plumbing Service</div>
         </div>
       </div>
 
@@ -558,7 +533,7 @@
         <div class="card position-relative border-0 shadow h-100">
           <img src="Assets/img/3.png" class="card-img-top" alt="Washing Machine Service">
           <div class="high-demand">High Demand</div>
-          <div class="card-title">Washing Machine Service</div>
+          <div class="card-title px-2">Washing Machine Service</div>
         </div>
       </div>
 
@@ -567,7 +542,7 @@
         <div class="card position-relative border-0 shadow h-100">
           <img src="Assets/img/4.png" class="card-img-top" alt="Refrigerator Repairing Service">
           <div class="high-demand">High Demand</div>
-          <div class="card-title">Refrigerator Repairing Service</div>
+          <div class="card-title px-2">Refrigerator Repairing Service</div>
         </div>
       </div>
 
@@ -576,7 +551,7 @@
         <div class="card position-relative border-0 shadow h-100">
           <img src="Assets/img/5.png" class="card-img-top" alt="TV/LED Repairing">
           <div class="high-demand">High Demand</div>
-          <div class="card-title">TV/LED Repairing</div>
+          <div class="card-title px-2">TV/LED Repairing</div>
         </div>
       </div>
     </div>
@@ -599,60 +574,9 @@
 
 
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <!-- Brand and Description -->
-                <div class="col-md-4">
-                    <h5><i class="bi bi-geo-alt-fill me-2"></i>Elite Service Engineering</h5>
-                    <p>Quick and Reliable Home Appliance Service in Washing Machine. <a href="index.php">Read more</a></p>
-                </div>
-                <!-- Quick Links -->
-                <div class="col-md-2">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="service.php">Our Services</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        
-                    </ul>
-                </div>
-                <!-- Our Services -->
-                <div class="col-md-3">
-                    <h5>Our Services</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="service.php">Washing Machine Repair Service</a></li>
-                        <li><a href="service.php">Refrigerator Repair Service</a></li>
-                        <li><a href="service.php">AC Repair Service</a></li>
-                        <li><a href="service.php">TV Repair Service</a></li>
-                        <li><a href="service.php">Micro Oven Repair Service</a></li>
-                    </ul>
-                </div>
-                <!-- Contact Info -->
-                <div class="col-md-3">
-                    <h5>Contact Info</h5>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt-fill"></i> Elite Service Engineering No 3111, EB Office Road, TNHB Colony, Madurai - 625012, Tamil Nadu</li>
-                        <li><i class="bi bi-envelope-fill"></i> eliteserviceengineering@gmail.com</li>
-                        <li><i class="bi bi-telephone-fill"></i> 8807224263</li>
-                        <li><i class="bi bi-globe"></i> www.eliteserviceengineering.in</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Footer Bottom -->
-            <div class="footer-bottom mt-4">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-md-start text-center">
-                        © www.eliteserviceengineering.in. All rights reserved.
-                    </div>
-                    <div class="col-md-6 text-md-end text-center">
-                        Designed by <strong>HFA Digital Creations</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php
+	require $includesDir . 'footer.php';
+?>
     <a href="tel:8807224263" class="bubble-button d-block d-sm-none">
     <i class="fas fa-phone-alt"></i>
   </div>
