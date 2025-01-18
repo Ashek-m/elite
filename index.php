@@ -655,7 +655,7 @@
     </footer>
     <a href="tel:8807224263" class="bubble-button d-block d-sm-none">
     <i class="fas fa-phone-alt"></i>
-  </>
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

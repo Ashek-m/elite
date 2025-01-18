@@ -8,11 +8,58 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Import Exo 2 Font -->
   <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome for the phone icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
   <style>
     body {
       font-family: 'Exo 2', sans-serif;
     }
   </style>
+  <style>
+        .hero-section1 {
+            position: relative;
+            background-image: url('Assets/img/1.png'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-section1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+            border-radius: 10px;
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .btn-custom {
+            background-color: #0A3642;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+       
+    </style>
 </head>
 <body>
   <div class="bg-white w-full py-16">
@@ -214,5 +261,16 @@
       </div>
     </div>
   </div>
+  <div class="container my-5 max-w-5xl mx-auto">
+    <!-- Hero Section -->
+    <div class="hero-section1">
+        <div class="hero-content">
+            <h1 class="fw-bold fs-3">Revitalize Your Equipment with Our Expert Repair Services</h1>
+            <p class="mt-2">Let us help you elevate your service capabilities.</p><br>
+            <a href="contact.php" class="text-decoration-none btn-custom mt-3">Contact us</a>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
