@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elite Service Engineering</title>
-  <!-- Import Tailwind CSS -->
+	<?php
+		$includesDir = __DIR__ . '/components/';
+		$pageTitle = "Elite Service Engineering";
+		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
+		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
+		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
+		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
+		require $includesDir . 'metaData.php';
+	?>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Import Exo 2 Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- FontAwesome for the phone icon -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  
+
   <style>
     body {
       font-family: 'Exo 2', sans-serif;
@@ -62,6 +59,10 @@
     </style>
 </head>
 <body>
+<?php
+	require $includesDir . 'header.php';
+?>	
+<div class="w-full">
   <div class="bg-white w-full py-16">
     <div class="container mx-auto max-w-5xl flex flex-col lg:flex-row items-center px-6">
       <!-- Left Content -->
@@ -73,11 +74,11 @@
       </div>
       <!-- Right Image -->
       <div class="lg:w-1/2 flex justify-center mt-8 lg:mt-0">
-        <div class="relative w-96 h-96">
+        <div class="relative w-full  h-96">
           <!-- Green Background -->
-          <div class="absolute inset-0 bg-green-500 rounded-lg translate-x-4 -translate-y-4"></div>
+          <div class="absolute inset-0 bg-green-500 rounded-lg translate-x-4 -translate-y-4 w-11/12 md:w-full"></div>
           <!-- Foreground Image -->
-          <img src="Assets/img/about/Maskgroup.png" alt="Technician" class="relative z-10 rounded-lg w-full h-full object-cover">
+          <img src="Assets/img/about/Maskgroup.png" alt="Technician" class="relative z-10 rounded-lg w-11/12 md:w-full h-full object-cover">
         </div>
       </div>
     </div>
@@ -136,7 +137,7 @@
       </div>
 
       <!-- Right Section -->
-      <div class="flex items-center justify-center gap-10">
+      <div class="flex items-center justify-center !md:gap-10 !gap-5">
         <!-- Customer Satisfaction -->
         <div class="text-center">
           <p class="text-4xl font-bold text-green-600">98%</p>
@@ -243,11 +244,11 @@
 
     <div class="flex flex-col md:flex-row items-center mt-6 gap-6 py-3">
     <div class="lg:w-1/2 flex justify-center mt-8 lg:mt-0 ">
-        <div class="relative w-96">
+        <div class="relative w-full md:w-96">
           <!-- Green Background -->
-          <div class="absolute inset-0 bg-green-500 rounded-lg -translate-x-4 -translate-y-4"></div>
+          <div class="absolute inset-0 bg-green-500 rounded-lg -translate-x-4 -translate-y-4 w-11/12 md:w-full"></div>
           <!-- Foreground Image -->
-          <img src="Assets/img/about/Maskgroup-1.png" alt="Technician" class="relative z-10 rounded-lg w-full object-cover">
+          <img src="Assets/img/about/Maskgroup-1.png" alt="Technician" class="relative z-10 rounded-lg  w-11/12 md:w-full object-cover">
         </div>
       </div>
       <div class="w-full md:w-1/2">
@@ -271,6 +272,9 @@
         </div>
     </div>
 </div>
-
+</div>
+<?php
+	require $includesDir . 'footer.php';
+?>
 </body>
 </html>

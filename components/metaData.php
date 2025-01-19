@@ -28,7 +28,14 @@
 	
     <!-- Favicon -->
     <!-- <link rel="icon" href="https://eliteengineeingservice.com/assets/images/favicon.ico" type="image/x-icon">-->
-
+    <!-- Google Fonts - Exo 2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome for the phone icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 <?php if (isset($hasSchemaStructure)): ?>
 <script type="application/ld+json">
 {

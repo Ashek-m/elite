@@ -3,12 +3,12 @@
 		<div class="row">
 			<!-- Brand and Description -->
 			<div class="col-md-4">
-				<h5><i class="bi bi-geo-alt-fill me-2"></i>Elite Service Engineering</h5>
+				<h5 class="text-xl"><i class="bi bi-geo-alt-fill me-2"></i>Elite Service Engineering</h5>
 				<p>Quick and Reliable Home Appliance Service in Washing Machine. <a href="index.php">Read more</a></p>
 			</div>
 			<!-- Quick Links -->
-			<div class="col-md-2">
-				<h5>Quick Links</h5>
+			<div class="col-md-2 pt-3">
+				<h5 class="text-xl">Quick Links</h5>
 				<ul class="list-unstyled">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About Us</a></li>
@@ -18,8 +18,8 @@
 				</ul>
 			</div>
 			<!-- Our Services -->
-			<div class="col-md-3">
-				<h5>Our Services</h5>
+			<div class="col-md-3 pt-3">
+				<h5 class="text-xl">Our Services</h5>
 				<ul class="list-unstyled">
 					<li><a href="service.php">Washing Machine Repair Service</a></li>
 					<li><a href="service.php">Refrigerator Repair Service</a></li>
@@ -29,8 +29,8 @@
 				</ul>
 			</div>
 			<!-- Contact Info -->
-			<div class="col-md-3">
-				<h5>Contact Info</h5>
+			<div class="col-md-3 pt-3">
+				<h5 class="text-xl">Contact Info</h5>
 				<ul class="list-unstyled">
 					<li><i class="bi bi-geo-alt-fill"></i> Elite Service Engineering No 3111, EB Office Road, TNHB Colony, Madurai - 625012, Tamil Nadu</li>
 					<li><i class="bi bi-envelope-fill"></i> eliteserviceengineering@gmail.com</li>
@@ -42,7 +42,7 @@
 		<!-- Footer Bottom -->
 		<div class="footer-bottom mt-4">
 			<div class="row align-items-center">
-				<div class="col-md-6 text-md-start text-center">
+				<div class="col-md-6 text-md-start text-center pb-3">
 					© www.eliteserviceengineering.in. All rights reserved.
 				</div>
 				<!-- <div class="col-md-6 text-md-end text-center">
@@ -57,3 +57,37 @@
 	</a>
 </div>
 </footer>
+   <style>
+        .footer {
+            background-color: #0A3642;
+            color: #ffffff;
+            padding: 40px 0;
+            font-size: 14px;
+        }
+        .footer h5 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-icons a {
+            color: #ffffff;
+            font-size: 18px;
+            margin-right: 15px;
+        }
+        .footer-icons a:hover {
+            color: #dddddd;
+        }
+        .footer-bottom {
+            border-top: 1px solid #444444;
+            margin-top: 20px;
+            padding-top: 10px;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
