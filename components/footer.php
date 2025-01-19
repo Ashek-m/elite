@@ -56,6 +56,9 @@
 		<i class="fas fa-phone-alt"></i> Book Now: +91 8807224263
 	</a>
 </div>
+<a href="tel:8807224263" class="bubble-button d-block d-sm-none btn-success position-fixed " style="bottom: 4em">
+    <i class="fas fa-phone-alt"></i>
+</a>
 </footer>
    <style>
         .footer {
