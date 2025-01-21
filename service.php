@@ -20,7 +20,7 @@
   <style>
         .hero-section1 {
             position: relative;
-            background-image: url('Assets/img/1.png'); /* Replace with actual image URL */
+            background-image: url('Assets/img/service/Banner.png'); /* Replace with actual image URL */
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -59,26 +59,25 @@
     </style>
 </head>
 <body>
-<<<<<<< HEAD
 
 <?php
 	require $includesDir . 'header.php';
 ?>
 
-=======
-<?php
-	require $includesDir . 'header.php';
-?>	
->>>>>>> ba4d9ed711bcbce82bc0a2795ee21d7fd564d103
 <div class="w-full">
   <div class="bg-white w-full py-16">
     <div class="container mx-auto max-w-7xl flex flex-col lg:flex-row items-center px-6">
       <!-- Left Content -->
       <div class="lg:w-1/2">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Elite Service Engineering!</h1>
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Always On Time And<br> Never Delay A Service</h1>
         <p class="text-gray-600 leading-relaxed">
-          Elite Service Engineering, based in Madurai, provides expert repair and maintenance for refrigerators, washing machines, air conditioners, and more. Our skilled technicians ensure efficient, reliable service, prioritizing customer satisfaction for smooth and hassle-free home appliance performance.
+        Always on time, delivering services without delay, ensuring quality,<br> reliability, and customer satisfaction every time.
         </p>
+        <ul class="py-4">
+            <li class="mb-2">-> Timely delivery is our topmost priority always.</li>
+            <li class="mb-2">-> High-quality services ensure customer satisfaction guaranteed.</li>
+            <li class="mb-2">-> Reliable solutions tailored to meet your unique needs.</li>
+        </ul>
       </div>
       <!-- Right Image -->
       <div class="lg:w-1/2 flex justify-center mt-8 lg:mt-0">
@@ -86,89 +85,12 @@
           <!-- Green Background -->
           <div class="absolute inset-0 bg-green-500 rounded-lg translate-x-4 -translate-y-4 w-11/12 md:w-full"></div>
           <!-- Foreground Image -->
-          <img src="Assets/img/about/Maskgroup.png" alt="Technician" class="relative z-10 rounded-lg w-11/12 md:w-full h-full object-cover">
+          <img src="Assets/img/service/Maskgroup-5.png" alt="Technician" class="relative z-10 rounded-lg w-11/12 md:w-full h-full object-cover">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container mx-auto py-12 max-w-7xl">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    <!-- Card 1 -->
-    <div class="bg-white shadow-md rounded-lg p-6 flex items-start">
-      <div class="flex items-center justify-center bg-green-500 text-white rounded-full w-16 h- mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">Custom-Tailored Solutions</h3>
-        <p class="text-gray-600">We design and manufacture products specifically to meet your unique needs.</p>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="bg-white shadow-md rounded-lg p-6 flex items-start">
-      <div class="flex items-center justify-center bg-green-500 text-white rounded-full w-16 h-7 mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">Precision and Quality Assurance</h3>
-        <p class="text-gray-600">We guarantee that every product meets the highest standards of precision.</p>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="bg-white shadow-md rounded-lg p-6 flex items-start">
-      <div class="flex items-center justify-center bg-green-500 text-white rounded-full w-16 h-7 mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">On-Time Delivery and Flexibility</h3>
-        <p class="text-gray-600">We prioritize timely delivery and offer flexible solutions to adapt to you.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="flex items-center justify-center py-3 ">
-  <div class="w-full max-w-7xl px-4">
-    <div class="flex flex-col md:flex-row items-center md:items-start justify-around">
-      <!-- Left Section -->
-      <div class="mb-6 md:mb-0">
-        <h1 class="text-2xl font-semibold text-gray-800">
-          Why Choose Us for Your <br> Appliance Repair Needs?
-        </h1>
-      </div>
-
-      <!-- Right Section -->
-      <div class="flex items-center justify-center !md:gap-10 !gap-5">
-        <!-- Customer Satisfaction -->
-        <div class="text-center">
-          <p class="text-4xl font-bold text-green-600">98%</p>
-          <p class="text-sm text-gray-600">Customer Satisfaction</p>
-        </div>
-        <!-- Divider -->
-        <div class="h-10 w-px bg-gray-300"></div>
-        <!-- Total Services -->
-        <div class="text-center">
-          <p class="text-4xl font-bold text-green-600">9812+</p>
-          <p class="text-sm text-gray-600">Total Services</p>
-        </div>
-        <!-- Divider -->
-        <div class="h-10 w-px bg-gray-300"></div>
-        <!-- Years of Experience -->
-        <div class="text-center">
-          <p class="text-4xl font-bold text-green-600">15+</p>
-          <p class="text-sm text-gray-600">Years of Experience</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <div class=" py-10">
   <div class="container mx-auto max-w-7xl"> <!-- Increased max-width to 5xl -->
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -241,46 +163,82 @@
     </div>
   </div>
   </div>
-  <div class="max-w-7xl mx-auto p-6 bg-white ">
-    <h2 class="text-center text-xl font-semibold text-gray-800">Best service ever in industry</h2>
-    <h1 class="text-center text-3xl font-bold mt-2 text-gray-900">We Services provided best offer</h1>
-
-    <p class="text-center mt-4 text-gray-600">
-      With a strong reputation for reliability and expertise, we specialize in servicing a wide range of home
-      appliances, from refrigerators and washing machines to air conditioners and microwaves.
-    </p>
-
-    <div class="flex flex-col md:flex-row items-center mt-6 gap-6 py-3">
-    <div class="lg:w-1/2 flex justify-center mt-8 lg:mt-0 ">
-        <div class="relative w-full md:w-96">
-          <!-- Green Background -->
-          <div class="absolute inset-0 bg-green-500 rounded-lg -translate-x-4 -translate-y-4 w-11/12 md:w-full"></div>
-          <!-- Foreground Image -->
-          <img src="Assets/img/about/Maskgroup-1.png" alt="Technician" class="relative z-10 rounded-lg  w-11/12 md:w-full object-cover">
+  <div class="container max-w-7xl py-5">
+    <h2 class="text-2xl text-center mb-4">Best service ever in industry</h2>
+    <h2 class="text-4xl font-bold text-center mb-4">We Services Provided Best Offer</h2>
+    <p class=" text-center mb-5">With a strong reputation for reliability and expertise, we specialize in servicing a wide range of home<br> appliances, from refrigerators and washing machines to air conditioners and microwaves.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="Assets/img/6.png" class="card-img-top" alt="Unmatched Quality">
+          <div class="card-body">
+            <h5 class="card-title">A/C Repair Services</h5>
+            <p class="card-text">We utilize state-of-the-art technology and industry best practices to deliver products that meet the highest standards of quality and precision.</p>
+            <a href="contact.php" class="view-details">Contact Us →</a>
+          </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2">
-        <p class="text-gray-800 text-lg mb-4">
-          Expert appliance repair with unbeatable offers! Skilled technicians ensure efficient, reliable service for all your home appliance needs.
-        </p>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li><span class="font-semibold">Affordable Pricing</span><br> Quality service at the best rates.</li>
-          <li><span class="font-semibold">Quick Turnaround</span><br> Fast and reliable solutions every time.</li>
-        </ul>
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="Assets/img/7.png" class="card-img-top" alt="Washing Machine Service">
+          <div class="card-body">
+            <h5 class="card-title">Washing Machine Service</h5>
+            <p class="card-text">Our washing machine repair service offers fast, reliable solutions to get your appliance back in perfect working order. Trust our skilled technicians to handle repairs with precision and care.</p>
+            <a href="contact.php" class="view-details">Contact Us →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="Assets/img/8.png" class="card-img-top" alt="TV/LED Repairing Service">
+          <div class="card-body">
+            <h5 class="card-title">TV/LED Repairing Service</h5>
+            <p class="card-text">Our TV repair service offers fast, reliable solutions to get your television back to perfect working condition. Trust our expert technicians for quality repairs at affordable prices.</p>
+            <a href="contact.php" class="view-details">Contact Us →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="Assets/img/9.png" class="card-img-top" alt="Micro Oven Repairing Service">
+          <div class="card-body">
+            <h5 class="card-title">Micro Oven Repairing Service</h5>
+            <p class="card-text">Microwave oven repair service offers fast and reliable solutions to get your microwave back to perfect working condition. Trust us to handle repairs with precision and care.</p>
+            <a href="contact.php" class="view-details">Contact Us →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="Assets/img/10.png" class="card-img-top" alt="Refrigerator Repairing Service">
+          <div class="card-body">
+            <h5 class="card-title">Refrigerator Repairing Service</h5>
+            <p class="card-text">Our refrigerator repair service offers swift and reliable solutions to keep your fridge running efficiently.</p>
+            <a href="contact.php" class="view-details">Contact Us →</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="container my-5 max-w-7xl mx-auto">
     <!-- Hero Section -->
     <div class="hero-section1">
-        <div class="hero-content">
-            <h1 class="fw-bold fs-3">Revitalize Your Equipment with Our Expert Repair Services</h1>
+        <div class="hero-content px-3">
+            <h1 class="fw-bold fs-6 ">Revitalize Your Equipment with Our Expert Repair Services</h1>
             <p class="mt-2">Let us help you elevate your service capabilities.</p><br>
             <a href="contact.php" class="text-decoration-none btn-custom mt-3">Contact us</a>
         </div>
     </div>
 </div>
 </div>
+
+
+
 <?php
 	require $includesDir . 'footer.php';
 ?>

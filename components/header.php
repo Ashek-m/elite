@@ -33,10 +33,17 @@
 					<a class="nav-link text-white" href="#">Home</a>
 				</li>
 				<li class="nav-item">
+<<<<<<< HEAD
+					<a class="nav-link text-white" href="./about.php">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="./service.php">Our Service</a>
+=======
 					<a class="nav-link text-white" href="#">About Us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Our Service</a>
+>>>>>>> ba4d9ed711bcbce82bc0a2795ee21d7fd564d103
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Contact Us</a>
