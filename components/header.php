@@ -27,23 +27,19 @@
 		<a class="navbar-brand text-white fw-bold navTxt" href="#">Customer Care Helpline</a>
 
 		<!-- Navigation Links -->
-		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+		<div class="collapse navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
 			<ul class="navbar-nav d-flex gap-4">
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-<<<<<<< HEAD
 					<a class="nav-link text-white" href="./about.php">About Us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="./service.php">Our Service</a>
-=======
-					<a class="nav-link text-white" href="#">About Us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Our Service</a>
->>>>>>> ba4d9ed711bcbce82bc0a2795ee21d7fd564d103
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Contact Us</a>
@@ -254,7 +250,7 @@
     <!-- Custom Style for Font -->
     <style>
         body {
-            font-family: 'Exo 2', sans-serif;
+            font-family: 'Exo 2', sans-serif !important;
         }
         .stat-card {
             background: #ffffff;

@@ -11,12 +11,6 @@
 		require $includesDir . 'metaData.php';
 	?>
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      font-family: 'Exo 2', sans-serif;
-    }
-  </style>
   <style>
         .hero-section1 {
             position: relative;
@@ -59,17 +53,9 @@
     </style>
 </head>
 <body>
-<<<<<<< HEAD
-
 <?php
 	require $includesDir . 'header.php';
 ?>
-
-=======
-<?php
-	require $includesDir . 'header.php';
-?>	
->>>>>>> ba4d9ed711bcbce82bc0a2795ee21d7fd564d103
 <div class="w-full">
   <div class="bg-white w-full py-16">
     <div class="container mx-auto max-w-7xl flex flex-col lg:flex-row items-center px-6">
@@ -284,5 +270,12 @@
 <?php
 	require $includesDir . 'footer.php';
 ?>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
 </body>
 </html>
