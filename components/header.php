@@ -9,7 +9,16 @@
 	}
 
 </style>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <!-- Top Header -->
 <div class="bg-white py-2 border-bottom d-none d-sm-block">
     <div class="container d-flex justify-content-center gap-5 text-muted">
@@ -21,40 +30,80 @@
 
 
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg" style="background-color: #013642;">
-	<div class="container w-100 d-flex justify-content-between align-items-center flex-nowrap">
-		<!-- Brand -->
-		<a class="navbar-brand text-white fw-bold navTxt" href="#">Elite Service Engineering</a>
-
-		<!-- Navigation Links -->
-		<div class="navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
-			<ul class="navbar-nav d-flex gap-4">
-				<li class="nav-item">
-					<a class="nav-link text-white" href="./index.php">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="./about.php">About Us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="./service.php">Service</a>
-				</li>
-				
-				<li class="nav-item">
-					<a class="nav-link text-white" href="./contact.php">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-
-		<!-- Phone Button -->
-		<div>
+  <nav class="parentnav" style="background-color: #013642; display: flex;">
+	  
+	<div class="topnav" id="myTopnav">
+		<a class="nav-link text-white navbar-brand text-white fw-bold navTxt" href="./index.php">Elite Service Engineering</a>
+		<a class="nav-link text-white" href="./index.php">Home</a>
+		<a class="nav-link text-white" href="./about.php">About Us</a>
+		<a class="nav-link text-white" href="./service.php">Service</a>
+		<a class="nav-link text-white" href="./contact.php">Contact Us</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+			<!-- Phone Button -->
+		<div class="d-none d-lg-flex justify-content-center align-items-center">
 			<a href="tel:8807224263" class="contactInfo text-decoration-none">
 				<i class="bi bi-telephone-fill text-success"></i><span class="text-success">8807224263</span>
 			</a>
 		</div>
-	</div>
-</nav>
-
+  </nav>
     <style>
+.parentnav{
+	padding: 0 5em;
+}
+.topnav {
+  overflow: hidden;
+  width: 100%
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .parentnav{
+	padding: 0 0.3em;
+}
+}
+
+@media screen and (max-width: 750px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+	
     .bubble-button {
       position: fixed;
       bottom: 10px;

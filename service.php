@@ -85,7 +85,7 @@
           <!-- Green Background -->
           <div class="absolute inset-0 bg-green-500 rounded-lg translate-x-4 -translate-y-4 w-11/12 md:w-full"></div>
           <!-- Foreground Image -->
-          <img src="Assets/img/service/Maskgroup-5.png" alt="Technician" class="relative z-10 rounded-lg w-11/12 md:w-full h-full object-cover">
+          <img src="Assets/img/Service/Maskgroup-5.png" alt="Technician" class="relative z-10 rounded-lg w-11/12 md:w-full h-full object-cover">
         </div>
       </div>
     </div>

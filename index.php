@@ -3,11 +3,11 @@
 <head>
 	<?php
 		$includesDir = __DIR__ . '/components/';
-		$pageTitle = "Customer Care Helpline";
+		$pageTitle = "Elite Service Engineering";
 		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
 		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
-		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
+	// 	$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
+		$canonicalUrl = "https://eliteengineeingservice.com/";
 		require $includesDir . 'metaData.php';
 	?>
 </head>
@@ -25,8 +25,9 @@
       Professional service that specializes in repairing and maintaining household or commercial appliances.
     </p>
     <div class="d-flex justify-content-center mt-4">
-      <a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
-      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"></i>8807224263</a>
+      <!--<a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a> -->
+      <span style="padding-right: 1em;padding-top: 5px">Service and Support </span>
+      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"> </i>8807224263</a>
     </div>
   </div>
 
@@ -164,7 +165,7 @@
           <div class="card-body">
             <h5 class="card-title">Unmatched Quality</h5>
             <p class="card-text">We utilize state-of-the-art technology and industry best practices to deliver products that meet the highest standards of quality and precision.</p>
-            <a href="#" class="view-details">View Details →</a>
+            <a href="./service.php" class="view-details">View Details →</a>
           </div>
         </div>
       </div>
@@ -175,7 +176,7 @@
           <div class="card-body">
             <h5 class="card-title">Washing Machine Service</h5>
             <p class="card-text">Our washing machine repair service offers fast, reliable solutions to get your appliance back in perfect working order. Trust our skilled technicians to handle repairs with precision and care.</p>
-            <a href="#" class="view-details">View Details →</a>
+            <a href="./service.php" class="view-details">View Details →</a>
           </div>
         </div>
       </div>
@@ -186,7 +187,7 @@
           <div class="card-body">
             <h5 class="card-title">TV/LED Repairing Service</h5>
             <p class="card-text">Our TV repair service offers fast, reliable solutions to get your television back to perfect working condition. Trust our expert technicians for quality repairs at affordable prices.</p>
-            <a href="#" class="view-details">View Details →</a>
+            <a href="./service.php" class="view-details">View Details →</a>
           </div>
         </div>
       </div>
@@ -197,7 +198,7 @@
           <div class="card-body">
             <h5 class="card-title">Micro Oven Repairing Service</h5>
             <p class="card-text">Microwave oven repair service offers fast and reliable solutions to get your microwave back to perfect working condition. Trust us to handle repairs with precision and care.</p>
-            <a href="#" class="view-details">View Details →</a>
+            <a href="./service.php" class="view-details">View Details →</a>
           </div>
         </div>
       </div>
@@ -208,7 +209,7 @@
           <div class="card-body">
             <h5 class="card-title">Refrigerator Repairing Service</h5>
             <p class="card-text">Our refrigerator repair service offers swift and reliable solutions to keep your fridge running efficiently.</p>
-            <a href="#" class="view-details">View Details →</a>
+            <a href="./service.php" class="view-details">View Details →</a>
           </div>
         </div>
       </div>
@@ -237,7 +238,7 @@
         <div class="card position-relative border-0 shadow h-100">
           <img src="Assets/img/2.png" class="card-img-top" alt="Plumbing Service">
           <div class="high-demand">High Demand</div>
-          <div class="card-title px-2">Plumbing Service</div>
+          <div class="card-title px-2">Ac Service</div>
         </div>
       </div>
 
