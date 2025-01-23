@@ -12,7 +12,7 @@
 				<ul class="list-unstyled">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About Us</a></li>
-					<li><a href="service.php">Our Services</a></li>
+					<li><a href="service.php">Services</a></li>
 					<li><a href="contact.php">Contact Us</a></li>
 					
 				</ul>
@@ -32,7 +32,7 @@
 			<div class="col-md-3 pt-3">
 				<h5 class="text-xl">Contact Info</h5>
 				<ul class="list-unstyled">
-					<li><i class="bi bi-geo-alt-fill"></i> Elite Service Engineering No 3111, EB Office Road, TNHB Colony, Madurai - 625012, Tamil Nadu</li>
+					<li><i class="bi bi-geo-alt-fill"></i> Elite Service Engineering (Head Office)<br> No 3111, EB Office Road, TNHB Colony,<br> Madurai - 625012, Tamil Nadu</li>
 					<li><i class="bi bi-envelope-fill"></i> eliteserviceengineering@gmail.com</li>
 					<li><i class="bi bi-telephone-fill"></i> 8807224263</li>
 					<li><i class="bi bi-globe"></i> www.eliteserviceengineering.in</li>

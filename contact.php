@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Details</title>
+	<?php
+		$includesDir = __DIR__ . '/components/';
+		$pageTitle = "Customer Care Helpline";
+		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
+		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
+		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
+		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
+		require $includesDir . 'metaData.php';
+	?>
+	
+	<style>
+	        body {
+            font-family: 'Exo 2', sans-serif;
+        }
+	</style>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+
+<?php
+	require $includesDir . 'header.php';
+?>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <p class="text-uppercase text-muted fw-bold">Reach Out for Reliable Repairs!</p>
+    <h1 class="fw-bold display-5">Contact Us for Fast and Trusted Appliance Repairs!</h1>
+    <p class="text-muted mt-3">
+    Reach out today for professional repair and maintenance of household or commercial appliances-reliable service guaranteed!
+    </p>
+    <div class="d-flex justify-content-center mt-4">
+      <a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
+      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"></i>8807224263</a>
+    </div>
+  </div>
+
+<div class=" flex items-center justify-center  py-2">
+  <div class="text-center max-w-5xl">
+    <h1 class="text-2xl font-semibold text-gray-800">
+      We Provide Washing Machine, Refrigerator, Air Conditioner, in All Over Tamilnadu.
+    </h1>
+    <div class="mt-4 text-gray-700 flex flex-wrap justify-center gap-4 text-lg">
+      <span>Madurai</span>
+      <span>Coimbatore</span>
+      <span>Tirupur</span>
+      <span>Pondicherry</span>
+      <span>Cuddalore</span>
+      <span>Villupuram</span>
+      <span>Trichy</span>
+      <span>Karur</span>
+      <span>Erode</span>
+      <span>Namakkal</span>
+      <span>Salem</span>
+      <span>Dharmapuri</span>
+      <span>Krishnagiri</span>
+      <span>Hosur</span>
+      <span>Thanjavur</span>
+      <span>Tirunelveli</span>
+      <span>Tuticorin</span>
+      <span>Kanyakumari</span>
+      <span>Nagercoil</span>
+      <span>Nagapattinam</span>
+      <span>Thiruvarur</span>
+      <span>Mayiladuthurai</span>
+      <span>Dindigul</span>
+    </div>
+  </div>
+</div>
+
+
 <div class="bg-gray-50 flex items-center justify-center min-h-screen">
   <div class="container mx-auto px-6 py-12">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 rounded-lg shadow-lg">
@@ -27,7 +91,7 @@
             <div>
               <h3 class="font-bold text-gray-800">Location</h3>
               <p class="text-gray-600">
-                Elite Service Engineering<br>
+                Elite Service Engineering (Head Office)<br>
                 No 3111, Office Road, TNHB Colony,<br>
                 Madurai - 625012, Tamil Nadu.
               </p>
@@ -74,7 +138,7 @@
       </div>
       <!-- Message Form -->
       <div>
-        <h2 class="text-2xl font-bold text-gray-800 mb-4">Drop Us A Message</h2>
+        <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Drop Us A Message</h2>
         <form action="#" class="space-y-4">
           <input type="text" placeholder="Name" class="w-full border border-green-500 rounded-md p-3">
           <input type="email" placeholder="Email" class="w-full border border-green-500 rounded-md p-3">
@@ -88,5 +152,20 @@
     </div>
   </div>
 </div>
+
+
+
+<?php
+	require $includesDir . 'footer.php';
+?>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@
 <!-- Top Header -->
 <div class="bg-white py-2 border-bottom d-none d-sm-block">
     <div class="container d-flex justify-content-center gap-5 text-muted">
-        <span><i class="bi bi-geo-alt-fill text-success me-1"></i> Find A Location</span>
+        <a href="contact.php" class="text-decoration-none"><i class="bi bi-geo-alt-fill text-success me-1"></i> Find A Location</a>
         <span><i class="bi bi-telephone-fill text-success me-1"></i> 8807224263</span>
         <span><i class="bi bi-envelope-fill text-success me-1"></i> eliteserviceengineering@gmail.com</span>
     </div>
@@ -30,19 +30,17 @@
 		<div class="navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
 			<ul class="navbar-nav d-flex gap-4">
 				<li class="nav-item">
-					<a class="nav-link text-white" href="#">Home</a>
+					<a class="nav-link text-white" href="./index.php">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="./about.php">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="./service.php">Our Service</a>
+					<a class="nav-link text-white" href="./service.php">Service</a>
 				</li>
+				
 				<li class="nav-item">
-					<a class="nav-link text-white" href="#">Our Service</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="#">Contact Us</a>
+					<a class="nav-link text-white" href="./contact.php">Contact Us</a>
 				</li>
 			</ul>
 		</div>
