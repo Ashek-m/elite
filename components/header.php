@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-lg" style="background-color: #013642;">
 	<div class="container w-100 d-flex justify-content-between align-items-center flex-nowrap">
 		<!-- Brand -->
-		<a class="navbar-brand text-white fw-bold navTxt" href="#">Customer Care Helpline</a>
+		<a class="navbar-brand text-white fw-bold navTxt" href="#">Elite Service Engineering</a>
 
 		<!-- Navigation Links -->
 		<div class="navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
