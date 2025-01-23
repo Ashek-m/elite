@@ -27,7 +27,7 @@
 		<a class="navbar-brand text-white fw-bold navTxt" href="#">Customer Care Helpline</a>
 
 		<!-- Navigation Links -->
-		<div class="collapse navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
+		<div class="navbar-collapse justify-content-center d-none d-md-block" id="navbarNav">
 			<ul class="navbar-nav d-flex gap-4">
 				<li class="nav-item">
 					<a class="nav-link text-white" href="#">Home</a>

@@ -10,12 +10,6 @@
 		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
 		require $includesDir . 'metaData.php';
 	?>
-	
-	<style>
-	        body {
-            font-family: 'Exo 2', sans-serif;
-        }
-	</style>
 </head>
 <body>
 
