@@ -174,7 +174,7 @@
           <img src="Assets/img/6.png" class="card-img-top" alt="Unmatched Quality">
           <div class="card-body">
             <h5 class="card-title">A/C Repair Services</h5>
-            <p class="card-text">We utilize state-of-the-art technology and industry best practices to deliver products that meet the highest standards of quality and precision.</p>
+            <p class="card-text">Our expert technicians are here to fix any cooling issues, ensuring your system runs smoothly.</p>
             <a href="contact.php" class="view-details">Contact Us →</a>
           </div>
         </div>

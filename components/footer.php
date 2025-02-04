@@ -14,6 +14,8 @@
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="service.php">Services</a></li>
 					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="terms.php">Terms & Conditions</a></li>
+					<li><a href="policy.php">Privacy Policy</a></li>
 					
 				</ul>
 			</div>
@@ -43,7 +45,7 @@
 		<div class="footer-bottom mt-4">
 			<div class="row align-items-center">
 				<div class="col-md-6 text-md-start text-center pb-3">
-					© www.eliteserviceengineering.in. All rights reserved.
+					2025 © www.eliteserviceengineering.in. All rights reserved.
 				</div>
 				<!-- <div class="col-md-6 text-md-end text-center">
 					Designed by <strong>HFA Digital Creations</strong>

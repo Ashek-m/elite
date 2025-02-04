@@ -32,55 +32,9 @@
     Reach out today for professional repair and maintenance of household or commercial appliances-reliable service guaranteed!
     </p>
     <div class="d-flex justify-content-center mt-4">
-      <a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
-      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"></i>8807224263</a>
-    </div>
-  </div>
-
-<div class=" flex items-center justify-center  py-2">
-  <div class="text-center max-w-5xl">
-    <h1 class="text-2xl font-semibold text-gray-800">
-      We Provide Washing Machine, Refrigerator, Air Conditioner, in All Over Tamilnadu.
-    </h1>
-    <div class="mt-4 text-gray-700 flex flex-wrap justify-center gap-4 text-lg">
-      <span>Madurai</span>
-      <span>Coimbatore</span>
-      <span>Tirupur</span><!DOCTYPE html>
-<html lang="en">
-<head>
-	<?php
-		$includesDir = __DIR__ . '/components/';
-		$pageTitle = "Elite Service Engineering - Contact";
-		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
-		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
-		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
-		require $includesDir . 'metaData.php';
-	?>
-	
-	<style>
-	        body {
-            font-family: 'Exo 2', sans-serif;
-        }
-	</style>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-
-<?php
-	require $includesDir . 'header.php';
-?>
-
-  <!-- Hero Section -->
-  <div class="hero-section">
-    <p class="text-uppercase text-muted fw-bold">Reach Out for Reliable Repairs!</p>
-    <h1 class="fw-bold display-5">Contact Us for Fast and Trusted Appliance Repairs!</h1>
-    <p class="text-muted mt-3">
-    Reach out today for professional repair and maintenance of household or commercial appliances-reliable service guaranteed!
-    </p>
-    <div class="d-flex justify-content-center mt-4">
-      <a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
-      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"></i>8807224263</a>
+      
+            <span style="padding-right: 1em;padding-top: 5px">Service and Support </span>
+      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"> </i>8807224263</a>
     </div>
   </div>
 
@@ -183,19 +137,10 @@
           <!-- Social Icons -->
         </div>
       </div>
-      <!-- Message Form 
-      <div>
-        <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Drop Us A Message</h2>
-        <form action="#" class="space-y-4">
-          <input type="text" placeholder="Name" class="w-full border border-green-500 rounded-md p-3">
-          <input type="email" placeholder="Email" class="w-full border border-green-500 rounded-md p-3">
-          <input type="text" placeholder="Subject" class="w-full border border-green-500 rounded-md p-3">
-          <textarea placeholder="Message" rows="4" class="w-full border border-green-500 rounded-md p-3"></textarea>
-          <button type="submit" class="w-full bg-green-500 text-white py-2 rounded-md font-bold hover:bg-green-600">
-            SEND MESSAGE
-          </button>
-        </form>
-      </div>-->
+      
+        <img src="Assets/img/contact/contact.jpg" alt="Contact Image" class="max-w-full h-auto rounded-lg shadow-md">
+
+      
     </div>
   </div>
 </div>
