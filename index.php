@@ -19,7 +19,8 @@
 
   <!-- Hero Section -->
   <div class="hero-section">
-  <h3 class="fw-bold">Turning Repair Needs Into Reality</h3>
+  <h3 class="fw-bold">Welcome to TN Customer Care Helpline Support</h3>
+  <p class="text-uppercase text-white fw-bold">Turning Repair Needs Into Reality</p>
 
   <h1 class="fw-bold display-5">Quick and Reliable Home Appliance Repair Service</h1>
   <p class="text-white mt-3">

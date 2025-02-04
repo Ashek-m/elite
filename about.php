@@ -61,7 +61,7 @@
     <div class="container mx-auto max-w-7xl flex flex-col lg:flex-row items-center px-6">
       <!-- Left Content -->
       <div class="lg:w-1/2">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Customer Care Helpline Support!</h1>
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to TN Customer Care Helpline Support!</h1>
         <p class="text-gray-600 leading-relaxed">
           Customer Care Helpline Support, based in Madurai, provides expert repair and maintenance for refrigerators, washing machines, air conditioners, and more. Our skilled technicians ensure efficient, reliable service, prioritizing customer satisfaction for smooth and hassle-free home appliance performance.
         </p>
