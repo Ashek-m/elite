@@ -3,7 +3,7 @@
 		<div class="row">
 			<!-- Brand and Description -->
 			<div class="col-md-4">
-				<h5 class="text-xl"><i class="bi bi-geo-alt-fill me-2"></i>Elite Service Engineering</h5>
+				<h5 class="text-xl"><i class="bi bi-geo-alt-fill me-2"></i>Customer Care Helpline Support</h5>
 				<p>Quick and Reliable Home Appliance Service in Washing Machine. <a href="index.php">Read more</a></p>
 			</div>
 			<!-- Quick Links -->
@@ -34,10 +34,10 @@
 			<div class="col-md-3 pt-3">
 				<h5 class="text-xl">Contact Info</h5>
 				<ul class="list-unstyled">
-					<li><i class="bi bi-geo-alt-fill"></i> Elite Service Engineering (Head Office)<br> No 3111, EB Office Road, TNHB Colony,<br> Madurai - 625012, Tamil Nadu</li>
+					<li><i class="bi bi-geo-alt-fill"></i> Customer Care Helpline Support (Head Office)<br> No 3111, EB Office Road, TNHB Colony,<br> Madurai - 625012, Tamil Nadu</li>
 					<li><i class="bi bi-envelope-fill"></i> eliteserviceengineering@gmail.com</li>
 					<li><i class="bi bi-telephone-fill"></i> 8807224263</li>
-					<li><i class="bi bi-globe"></i> www.eliteserviceengineering.in</li>
+					<li><i class="bi bi-globe"></i> www.tncustomercaresupport.in</li>
 				</ul>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 		<div class="footer-bottom mt-4">
 			<div class="row align-items-center">
 				<div class="col-md-6 text-md-start text-center pb-3">
-					2025 © www.eliteserviceengineering.in. All rights reserved.
+					2025 © tncustomercaresupport.in. All rights reserved.
 				</div>
 				<!-- <div class="col-md-6 text-md-end text-center">
 					Designed by <strong>HFA Digital Creations</strong>

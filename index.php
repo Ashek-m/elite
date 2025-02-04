@@ -3,9 +3,9 @@
 <head>
 	<?php
 		$includesDir = __DIR__ . '/components/';
-		$pageTitle = "Elite Service Engineering";
-		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
-		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
+		$pageTitle = "Customer Care Helpline Support";
+		$metaDescription = "Customer Care Helpline Support: Expert solutions in engineering, construction, and project management.";
+		$metaKeywords = "Customer Care Helpline Support, engineering solutions, construction, project management";
 	// 	$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
 		$canonicalUrl = "https://tncustomercaresupport.in/";
 		require $includesDir . 'metaData.php';
@@ -19,8 +19,8 @@
 
   <!-- Hero Section -->
   <div class="hero-section">
-  <h3 class="fw-bold">Welcome to Elite Service Engineering!</h3>
-  <p class="text-uppercase fw-bold text-blue1">Turning Repair Needs Into Reality</p>
+  <h3 class="fw-bold">Turning Repair Needs Into Reality</h3>
+
   <h1 class="fw-bold display-5">Quick and Reliable Home Appliance Repair Service</h1>
   <p class="text-white mt-3">
     Professional service that specializes in repairing and maintaining household or commercial appliances.
@@ -176,7 +176,7 @@
       <!-- Right Section (Text) -->
       <div class="col-md-6 pt-3">
         <h2 class="fw-bold">About Us</h2>
-        <h3 class="fw-bold">Welcome to Elite Service Engineering!</h3>
+        <h3 class="fw-bold">Welcome to Customer Care Helpline Support!</h3>
         <p>
           Most trusted home appliance service and repair solutions. With verified professionals who come to your doorstep across your city.
         </p>

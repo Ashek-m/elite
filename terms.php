@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms & Conditions - Elite service Engineering</title>
+    <title>Terms & Conditions - Customer Care Helpline Support</title>
     <!-- Include Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Include Google Fonts (Exo 2) -->
@@ -26,7 +26,7 @@
         <div class="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-8">
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Service Agreement</h2>
             <p class="mb-6 leading-relaxed">
-                By booking our services, you enter into a binding agreement with ELITE SERVICE ENGINEERING.
+                By booking our services, you enter into a binding agreement with Customer Care Helpline Support.
             </p>
 
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Payment Terms</h2>
@@ -51,7 +51,7 @@
 
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Limitation of Liability</h2>
             <p class="mb-6 leading-relaxed">
-                ELITE SERVICE ENGINEERING is not liable for any indirect or consequential damages arising from the use of our services.
+                Customer Care Helpline Support is not liable for any indirect or consequential damages arising from the use of our services.
             </p>
 
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Privacy</h2>
@@ -79,7 +79,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto text-center">
-            <p class="mb-2">&copy;2025 © www.eliteserviceengineering.in. All rights reserved.</p>
+            <p class="mb-2">&copy;2025 © www.tncustomercaresupport.in. All rights reserved.</p>
             <p>
                 Visit our <a href="index.php" class="text-blue-400 underline">homepage</a> for more details.
             </p>

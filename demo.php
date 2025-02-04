@@ -27,7 +27,7 @@
             <div>
               <h3 class="font-bold text-gray-800">Location</h3>
               <p class="text-gray-600">
-                Elite Service Engineering<br>
+                Customer Care Helpline Support<br>
                 No 3111, Office Road, TNHB Colony,<br>
                 Madurai - 625012, Tamil Nadu.
               </p>
@@ -66,7 +66,7 @@
             </div>
             <div>
               <h3 class="font-bold text-gray-800">Website</h3>
-              <p class="text-gray-600">www.eliteserviceengineering.in</p>
+              <p class="text-gray-600">www.tncustomercaresupport.in</p>
             </div>
           </div>
           <!-- Social Icons -->

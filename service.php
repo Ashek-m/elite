@@ -3,7 +3,7 @@
 <head>
 	<?php
 		$includesDir = __DIR__ . '/components/';
-		$pageTitle = "Elite Service Engineering";
+		$pageTitle = "Customer Care Helpline Support";
 		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
 		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
 		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional

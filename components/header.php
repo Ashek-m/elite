@@ -74,7 +74,7 @@ function myFunction() {
   <nav class="parentnav" style="background-color: #013642; display: flex;">
 	  
 	<div class="topnav" id="myTopnav">
-		<a class="nav-link text-white navbar-brand text-white fw-bold navTxt" href="./index.php">Elite Service Engineering</a>
+		<a class="nav-link text-white navbar-brand text-white fw-bold navTxt" href="./index.php">Customer Care Helpline Support</a>
 		<a class="nav-link text-white" href="./index.php">Home</a>
 		<a class="nav-link text-white" href="./about.php">About Us</a>
 		<a class="nav-link text-white" href="./service.php">Service</a>

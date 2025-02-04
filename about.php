@@ -3,10 +3,10 @@
 <head>
 	<?php
 		$includesDir = __DIR__ . '/components/';
-		$pageTitle = "Elite Service Engineering";
-		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
-		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
-		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
+		$pageTitle = "Customer Care Helpline Support";
+		$metaDescription = "Customer Care Helpline Support: Expert solutions in engineering, construction, and project management.";
+		$metaKeywords = "Customer Care Helpline Support, engineering solutions, construction, project management";
+		// $thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
 		$canonicalUrl = "https://tncustomercaresupport.in/homepage";
 		require $includesDir . 'metaData.php';
 	?>
@@ -61,9 +61,9 @@
     <div class="container mx-auto max-w-7xl flex flex-col lg:flex-row items-center px-6">
       <!-- Left Content -->
       <div class="lg:w-1/2">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Elite Service Engineering!</h1>
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Customer Care Helpline Support!</h1>
         <p class="text-gray-600 leading-relaxed">
-          Elite Service Engineering, based in Madurai, provides expert repair and maintenance for refrigerators, washing machines, air conditioners, and more. Our skilled technicians ensure efficient, reliable service, prioritizing customer satisfaction for smooth and hassle-free home appliance performance.
+          Customer Care Helpline Support, based in Madurai, provides expert repair and maintenance for refrigerators, washing machines, air conditioners, and more. Our skilled technicians ensure efficient, reliable service, prioritizing customer satisfaction for smooth and hassle-free home appliance performance.
         </p>
       </div>
       <!-- Right Image -->

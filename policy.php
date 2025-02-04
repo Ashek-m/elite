@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Elite Service Engineering</title>
+    <title>Privacy Policy - Customer Care Helpline Support</title>
     <!-- Include Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Include Google Fonts (Exo 2) -->
@@ -62,7 +62,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto text-center">
-            <p class="mb-2">&copy;2025 © www.eliteserviceengineering.in. All rights reserved.</p>
+            <p class="mb-2">&copy;2025 © www.tncustomercaresupport.in. All rights reserved.</p>
             <p>
                 Visit our <a href="index.php" class="text-blue-400 underline">homepage</a> for more details.
             </p>
