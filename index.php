@@ -19,18 +19,17 @@
 
   <!-- Hero Section -->
   <div class="hero-section">
-      <h3 class="fw-bold">Welcome to Elite Service Engineering!</h3>
-    <p class="text-uppercase text-muted fw-bold">Turning Repair Needs Into Reality</p>
-    <h1 class="fw-bold display-5">Quick and Reliable Home Appliance Repair Service</h1>
-    <p class="text-muted mt-3">
-      Professional service that specializes in repairing and maintaining household or commercial appliances.
-    </p>
-    <div class="d-flex justify-content-center mt-4">
-      <!--<a href="https://api.whatsapp.com/send?phone=+918807224263&text=Enquiry" class="btn btn-success me-3"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a> -->
-      <spam class="fw-bold" style="padding-right: 1.5em;padding-top: 0pxx"><b></b>Service and Support </b></span>
-      <a href="tel:8807224263" class="btn btn-outline-success"><i class="bi bi-telephone-fill me-2"> </i>8807224263</a>
-    </div>
+  <h3 class="fw-bold">Welcome to Elite Service Engineering!</h3>
+  <p class="text-uppercase fw-bold text-blue1">Turning Repair Needs Into Reality</p>
+  <h1 class="fw-bold display-5">Quick and Reliable Home Appliance Repair Service</h1>
+  <p class="text-white mt-3">
+    Professional service that specializes in repairing and maintaining household or commercial appliances.
+  </p>
+  <div class="d-flex justify-content-center mt-4">
+    <span class="fw-bold" style="padding-right: 1.5em;"><b>Service and Support</b></span>
+    <a href="tel:8807224263" class="btn btn-success"><i class="bi bi-telephone-fill me-2"> </i>8807224263</a>
   </div>
+</div>
 
     
 

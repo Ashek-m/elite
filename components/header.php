@@ -8,6 +8,47 @@
 		border-radius: 50px;
 	}
 
+  .text-blue1{
+    color: #35A745;
+  }
+
+</style>
+<style>
+  .hero-section {
+    position: relative;
+    background-image: url('Assets/img/home.png'); /* Correct image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  /* Adding Black Overlay */
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity (0.6 = 60% dark) */
+    z-index: -1;
+  }
+
+  .hero-section h1, 
+  .hero-section h3, 
+  .hero-section p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Enhances readability */
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 10px;
+    }
+  }
 </style>
 <script>
 function myFunction() {
