@@ -13,7 +13,7 @@
         <meta property="og:image" content="<?php echo $thumbnail; ?>">
     <?php endif; ?>
     
-    <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://eliteengineeingservice.com/'; ?>">
+    <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://tncustomercaresupport.in/'; ?>">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card -->
@@ -24,10 +24,10 @@
 		<meta name="twitter:image" content="<?php echo $thumbnail; ?>">
     <?php endif; ?>
     <!-- Canonical URL -->
-	<link rel="canonical" href="<?php echo isset($canonicalUrl) ? $canonicalUrl : 'https://eliteengineeingservice.com/'; ?>">
+	<link rel="canonical" href="<?php echo isset($canonicalUrl) ? $canonicalUrl : 'https://tncustomercaresupport.in/'; ?>">
 	
     <!-- Favicon -->
-    <!-- <link rel="icon" href="https://eliteengineeingservice.com/assets/images/favicon.ico" type="image/x-icon">-->
+    <!-- <link rel="icon" href="https://tncustomercaresupport.in/assets/images/favicon.ico" type="image/x-icon">-->
     <!-- Google Fonts - Exo 2 -->
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -52,8 +52,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "<?php echo isset($organizationName) ? $organizationName : 'Elite Engineering Service'; ?>",
-    "url": "<?php echo isset($organizationUrl) ? $organizationUrl : 'https://eliteengineeingservice.com/'; ?>",
-    "logo": "<?php echo isset($organizationLogo) ? $organizationLogo : 'https://eliteengineeingservice.com/assets/images/logo.png'; ?>",
+    "url": "<?php echo isset($organizationUrl) ? $organizationUrl : 'https://tncustomercaresupport.in/'; ?>",
+    "logo": "<?php echo isset($organizationLogo) ? $organizationLogo : 'https://tncustomercaresupport.in/assets/images/logo.png'; ?>",
     "description": "<?php echo isset($organizationDescription) ? $organizationDescription : 'Expert solutions in engineering, construction, and project management for industrial and commercial clients.'; ?>",
     "contactPoint": {
         "@type": "ContactPoint",

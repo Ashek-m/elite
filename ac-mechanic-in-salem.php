@@ -6,7 +6,7 @@
 		$pageTitle = "Best AC Mechanic in Salem for Reliable and Affordable HVAC Services";
 		$metaDescription = "Looking for a certified AC mechanic in Salem? Elite Service Engineering provides expert AC repairs and maintenance services at affordable rates.";
 		// $thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/ac-mechanic-in-salem.php";
+		$canonicalUrl = "https://tncustomercaresupport.in/ac-mechanic-in-salem.php";
 		require $includesDir . 'metaData.php';
 	?>
 	

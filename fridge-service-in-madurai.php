@@ -6,7 +6,7 @@
 		$pageTitle = "Trusted Fridge Service in Madurai – Elite Service Engineering";
 		$metaDescription = "Looking for reliable fridge service in Madurai? Elite Service Engineering offers expert fridge repairs and maintenance at affordable prices.";
 		// $thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/fridge-service-in-madurai.php";
+		$canonicalUrl = "https://tncustomercaresupport.in/fridge-service-in-madurai.php";
 		require $includesDir . 'metaData.php';
 	?>
 </head>

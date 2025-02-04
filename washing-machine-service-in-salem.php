@@ -6,7 +6,7 @@
 		$pageTitle = "Best Washing Machine Service in Salem - Tamil Nadu";
 		$metaDescription = "Ensure your washing machine runs smoothly with the best washing machine service in Salem district. Expert technicians provide reliable repairs, regular maintenance, and quick solutions to all your appliance issues.";
 		// $thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/washing-machine-service-in-salem.php";
+		$canonicalUrl = "https://tncustomercaresupport.in/washing-machine-service-in-salem.php";
 		require $includesDir . 'metaData.php';
 	?>
 	

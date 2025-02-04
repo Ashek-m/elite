@@ -7,7 +7,7 @@
 		$metaDescription = "Elite Engineering Service: Expert solutions in engineering, construction, and project management.";
 		$metaKeywords = "Elite Engineering, engineering solutions, construction, project management";
 		$thumbnail = "https://example.com/path-to-thumbnail.jpg"; // Optional
-		$canonicalUrl = "https://eliteengineeingservice.com/homepage";
+		$canonicalUrl = "https://tncustomercaresupport.in/homepage";
 		require $includesDir . 'metaData.php';
 	?>
   <script src="https://cdn.tailwindcss.com"></script>
